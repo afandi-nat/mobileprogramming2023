@@ -1,4 +1,4 @@
-import 'package:dusunsemilir/DetailScreen.dart';
+import 'package:dusunsemilir/main_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,9 +14,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Dusun Semilir',
       theme: ThemeData(),
-      home: Scaffold(
-        body: DetailScreen(),
-      ),
+      home: MainScreen(),
     );
   }
 }
